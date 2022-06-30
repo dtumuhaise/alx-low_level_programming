@@ -1,4 +1,5 @@
 #include <stdio.h>
+/** main function can be called without any parameter */
 int main(void)
 {
 	/* initalize variable*/
