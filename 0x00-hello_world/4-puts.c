@@ -1,12 +1,10 @@
 #include <stdio.h>
-
-/* program to print a string of characters using print() */
-
-int main(void) 
+int main(void)
 {
+	/* initalize variable*/
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
-	puts(str);
+	puts(str); /* write string to stdout */
 
 	return (0);
 }
