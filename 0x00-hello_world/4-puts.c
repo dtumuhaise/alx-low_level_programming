@@ -1,5 +1,8 @@
 #include <stdio.h>
-/** main function can be called without any parameter */
+/**
+ *  main(void) - main function will be called without any parameter
+ *  print out value of str using puts()
+ */  
 int main(void)
 {
 	/* initalize variable*/
