@@ -10,10 +10,10 @@ int main()
 	long long int d;
 	float e;
 
-	printf("Size of a char: %d\n" sizeof(a));
-	printf("Size of an int: %d\n" sizeof(b));
-	printf("Size of a long int: %d\n" sizeof(c));
-	printf("Size of a long long int: %d\n" sizeof(d));
-	printf("Size of a float: %d\n" sizeof(e));
+	printf("Size of a char: %zu\n" sizeof(a));
+	printf("Size of an int: %zu\n" sizeof(b));
+	printf("Size of a long int: %zu\n" sizeof(c));
+	printf("Size of a long long int: %zu\n" sizeof(d));
+	printf("Size of a float: %zu\n" sizeof(e));
 	return (0);
 }
