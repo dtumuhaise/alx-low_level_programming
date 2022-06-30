@@ -2,12 +2,12 @@
 /** main - runs without parameters
  * Return: Returns 0 at the end of the program
  */
-int main (void)
+int main ()
 {
-	printf("Size of a char: %d\n" sizeof(char));
-	printf("Size of an int: %d\n" sizeof(int));
-	printf("Size of a long int: %d\n" sizeof(long int));
-	printf("Size of a long long int: %d\n" sizeof(long long int));
-	printf("Size of a float: %d\n" sizeof(float));
+	printf("%d\n", "Size of a char: "sizeof(char));
+	printf("%d\n", "Size of an int: " sizeof(int));
+	printf("%s\n", "Size of a long int: " sizeof(long int));
+	printf("%s\n", "Size of a long long int: " sizeof(long long int));
+	printf("%s\n", "Size of a float: " sizeof(float));
 	return (0);
 }
