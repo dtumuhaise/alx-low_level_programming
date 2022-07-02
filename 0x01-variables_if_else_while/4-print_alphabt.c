@@ -9,7 +9,7 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		while (ch != 'e') && while (ch != 'q')
+		while ((ch != 'e') && (ch != 'q'))
 			putchar(ch);
 	}
 	putchar('\n');
