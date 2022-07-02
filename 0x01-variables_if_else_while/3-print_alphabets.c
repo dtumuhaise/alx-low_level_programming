@@ -16,9 +16,11 @@ int main(void)
 	{
 		putchar(ch);
 		ch++;
-	while (ch2 <= end2)
-		putchar(ch2);
-		ch2++;	
+		while (ch2 <= end2)
+		{
+			putchar(ch2);
+			ch2++;
+		}
 	}
 	putchar('\n');
 	return (0);
