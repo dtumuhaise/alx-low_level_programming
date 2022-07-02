@@ -10,9 +10,10 @@ int main(void)
 
 	char ch = start;
 
-	while(ch != end)
+	while (ch != end)
 	{
 		putchar(ch);
+		putchar('\n');
 		ch++;
 	}
 	return (0);
