@@ -6,7 +6,7 @@
 int main(void)
 {
 	char start = 'a';
-	char end = 'z';
+	char end = 'A';
 
 	char ch = start;
 
@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(ch);
 		ch++;
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
