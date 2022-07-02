@@ -13,8 +13,8 @@ int main(void)
 	while (ch != end)
 	{
 		putchar(ch);
-		putchar('\n');
 		ch++;
+		putchar('\n');
 	}
 	return (0);
 }
