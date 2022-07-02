@@ -13,11 +13,11 @@ int main(void)
 	char ch = start;
 	char ch2 = start2;
 	
-	while (ch <= end);
+	while (ch <= end)
 	{
 		putchar(ch);
 		ch++;
-		while (ch2 <= end2);
+		while (ch2 <= end2)
 		{
 			putchar(ch2);
 			ch2++;
