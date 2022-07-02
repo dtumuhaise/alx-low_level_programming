@@ -12,6 +12,7 @@ int main(void)
 
 	char ch = start;
 	char ch2 = start2;
+
 	while (ch <= end)
 	{
 		putchar(ch);
