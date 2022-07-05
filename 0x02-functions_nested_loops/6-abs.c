@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -abs - comptues absolute integer
+ * _abs - comptues absolute integer
  *
  *  Return: 0
  */
