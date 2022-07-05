@@ -4,10 +4,8 @@
  *
  *  Return: 0
  */
-int _abs()
+int _abs(int n)
 {
-	int n;
-
 	if ((n <= 0) || (n >= 0))
 	{
 		_putchar(n + '0');
