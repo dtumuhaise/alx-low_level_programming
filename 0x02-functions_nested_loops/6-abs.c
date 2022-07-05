@@ -1,14 +1,12 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * _abs - comptues absolute integer
- * @n: number entered:w
+ * @n: number entered
  *  Return: 0
  */
 int _abs(int n)
 {
-	if ((n <= 0) || (n >= 0))
-	{
 		_putchar(n + '0');
-	}
-	return (0);
+		return (0);
 }
