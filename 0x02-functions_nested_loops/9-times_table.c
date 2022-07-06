@@ -4,7 +4,7 @@
  *
  * Return: Always 0.
  */
-void times_table(void);
+void times_table(void)
 {
 	int i, j;
 	
@@ -13,7 +13,7 @@ void times_table(void);
 		_putchar('0');
 		for (j = 1; j <= 9; j++)
 		{
-			int result = n * j;
+			int result = i * j;
 
 			_putchar(',');
 			_putchar(' ');
