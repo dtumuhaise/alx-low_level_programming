@@ -10,6 +10,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *p, *q;
 	unsigned int i, j;
+	
+	if (!nmemb || !size)
+	{
+		return (NULL);
+	}
 
 	j = nmemb * size;
 	p = q = malloc(j);
